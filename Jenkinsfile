@@ -1,6 +1,6 @@
 node('linux'){
     stage('Build'){
-        git 'https://github.com/rclc/java-project.git'
+        git 'https://github.com/olani/java-project.git'
         sh 'ant -f build.xml -v'
     }
 }
